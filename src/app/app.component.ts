@@ -18,7 +18,7 @@ export class AppComponent {
     this.userService
       .getUsers()
       .subscribe((result: User[]) => (this.users = result) );
-    
+     
   }
 
 }
